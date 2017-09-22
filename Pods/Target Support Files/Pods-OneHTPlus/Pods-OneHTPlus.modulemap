@@ -1,0 +1,6 @@
+framework module Pods_OneHTPlus {
+  umbrella header "Pods-OneHTPlus-umbrella.h"
+
+  export *
+  module * { export * }
+}

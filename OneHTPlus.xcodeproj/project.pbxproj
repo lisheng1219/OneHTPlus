@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A18B7221F5ADD1700044816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18B7211F5ADD1700044816 /* AppDelegate.swift */; };
+		1A18B7271F5ADD1700044816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A18B7251F5ADD1700044816 /* Main.storyboard */; };
+		1A18B72A1F5ADD1700044816 /* OneHTPlus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A18B7281F5ADD1700044816 /* OneHTPlus.xcdatamodeld */; };
+		1A18B72C1F5ADD1700044816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A18B72B1F5ADD1700044816 /* Assets.xcassets */; };
+		1A18B72F1F5ADD1700044816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A18B72D1F5ADD1700044816 /* LaunchScreen.storyboard */; };
+		1A18B73A1F5ADD1700044816 /* OneHTPlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18B7391F5ADD1700044816 /* OneHTPlusTests.swift */; };
+		1A18B7451F5ADD1700044816 /* OneHTPlusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18B7441F5ADD1700044816 /* OneHTPlusUITests.swift */; };
+		1A18B7531F5AE35B00044816 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1A18B7521F5AE35B00044816 /* Podfile */; };
+		1A18B7561F5AEDEC00044816 /* R.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18B7551F5AEDEB00044816 /* R.swift */; };
+		1A18B7591F5AEF3700044816 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A18B75B1F5AEF3700044816 /* Localizable.strings */; };
+		1A18B75E1F5AEF9100044816 /* Color.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A18B75D1F5AEF9100044816 /* Color.strings */; };
+		1A18B7621F5AF4DF00044816 /* AlamofireRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18B7611F5AF4DF00044816 /* AlamofireRequestFactory.swift */; };
+		1A18B7641F5AF51400044816 /* RestRequestException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18B7631F5AF51400044816 /* RestRequestException.swift */; };
+		1A18B7661F5AF5D200044816 /* ErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18B7651F5AF5D200044816 /* ErrorCode.swift */; };
+		1A18B7681F5AFC7D00044816 /* ResponseObjectSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18B7671F5AFC7D00044816 /* ResponseObjectSerializable.swift */; };
+		1A18B76A1F5AFCA600044816 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18B7691F5AFCA600044816 /* Request.swift */; };
+		1A18B76C1F5AFCDF00044816 /* ResponseCollectionSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18B76B1F5AFCDF00044816 /* ResponseCollectionSerializable.swift */; };
+		1A18B7701F5AFF3300044816 /* StringContants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18B76F1F5AFF3300044816 /* StringContants.swift */; };
+		1A18B7721F5AFFCA00044816 /* ExceptionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18B7711F5AFFCA00044816 /* ExceptionHandler.swift */; };
+		1A18B7761F5B04E400044816 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18B7751F5B04E400044816 /* AppUtils.swift */; };
+		1A18B7791F5B05E800044816 /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18B7781F5B05E800044816 /* AccessToken.swift */; };
+		1A18B77B1F5CF3D500044816 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18B77A1F5CF3D500044816 /* MainTabBarController.swift */; };
+		A6E1D642943E4FE1BDD420D3 /* Pods_OneHTPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F982C9D57D725EE5A99EA31 /* Pods_OneHTPlus.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A18B7361F5ADD1700044816 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A18B7161F5ADD1700044816 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A18B71D1F5ADD1700044816;
+			remoteInfo = OneHTPlus;
+		};
+		1A18B7411F5ADD1700044816 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A18B7161F5ADD1700044816 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A18B71D1F5ADD1700044816;
+			remoteInfo = OneHTPlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A18B71E1F5ADD1700044816 /* OneHTPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneHTPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A18B7211F5ADD1700044816 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A18B7261F5ADD1700044816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A18B7291F5ADD1700044816 /* OneHTPlus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OneHTPlus.xcdatamodel; sourceTree = "<group>"; };
+		1A18B72B1F5ADD1700044816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A18B72E1F5ADD1700044816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A18B7301F5ADD1700044816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A18B7351F5ADD1700044816 /* OneHTPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneHTPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A18B7391F5ADD1700044816 /* OneHTPlusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneHTPlusTests.swift; sourceTree = "<group>"; };
+		1A18B73B1F5ADD1700044816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A18B7401F5ADD1700044816 /* OneHTPlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneHTPlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A18B7441F5ADD1700044816 /* OneHTPlusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneHTPlusUITests.swift; sourceTree = "<group>"; };
+		1A18B7461F5ADD1700044816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A18B7521F5AE35B00044816 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1A18B7551F5AEDEB00044816 /* R.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R.swift; path = Resource/R.swift; sourceTree = "<group>"; };
+		1A18B75A1F5AEF3700044816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1A18B75C1F5AEF3900044816 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1A18B75D1F5AEF9100044816 /* Color.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Color.strings; path = Resource/Color.strings; sourceTree = "<group>"; };
+		1A18B7611F5AF4DF00044816 /* AlamofireRequestFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlamofireRequestFactory.swift; path = "Rest-Client-Sdk/Util/AlamofireRequestFactory.swift"; sourceTree = "<group>"; };
+		1A18B7631F5AF51400044816 /* RestRequestException.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestRequestException.swift; path = "Rest-Client-Sdk/Util/RestRequestException.swift"; sourceTree = "<group>"; };
+		1A18B7651F5AF5D200044816 /* ErrorCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ErrorCode.swift; path = "Rest-Client-Sdk/Util/ErrorCode.swift"; sourceTree = "<group>"; };
+		1A18B7671F5AFC7D00044816 /* ResponseObjectSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseObjectSerializable.swift; path = "Rest-Client-Sdk/Util/ResponseObjectSerializable.swift"; sourceTree = "<group>"; };
+		1A18B7691F5AFCA600044816 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Request.swift; path = "Rest-Client-Sdk/Util/Request.swift"; sourceTree = "<group>"; };
+		1A18B76B1F5AFCDF00044816 /* ResponseCollectionSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseCollectionSerializable.swift; path = "Rest-Client-Sdk/Util/ResponseCollectionSerializable.swift"; sourceTree = "<group>"; };
+		1A18B76F1F5AFF3300044816 /* StringContants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringContants.swift; path = "Rest-Client-Sdk/Util/StringContants.swift"; sourceTree = "<group>"; };
+		1A18B7711F5AFFCA00044816 /* ExceptionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExceptionHandler.swift; path = "Rest-Client-Sdk/Util/ExceptionHandler.swift"; sourceTree = "<group>"; };
+		1A18B7751F5B04E400044816 /* AppUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppUtils.swift; path = Common/Util/AppUtils.swift; sourceTree = "<group>"; };
+		1A18B7781F5B05E800044816 /* AccessToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccessToken.swift; path = "Rest-Client-Sdk/Oauth/AccessToken.swift"; sourceTree = "<group>"; };
+		1A18B77A1F5CF3D500044816 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		82137F5361D57579DF356D8A /* Pods-OneHTPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneHTPlus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneHTPlus/Pods-OneHTPlus.debug.xcconfig"; sourceTree = "<group>"; };
+		875B3F0181463F664B5BAE87 /* Pods-OneHTPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneHTPlus.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneHTPlus/Pods-OneHTPlus.release.xcconfig"; sourceTree = "<group>"; };
+		9F982C9D57D725EE5A99EA31 /* Pods_OneHTPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneHTPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A18B71B1F5ADD1700044816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E1D642943E4FE1BDD420D3 /* Pods_OneHTPlus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A18B7321F5ADD1700044816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A18B73D1F5ADD1700044816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A18B7151F5ADD1700044816 = {
+			isa = PBXGroup;
+			children = (
+				1A18B7201F5ADD1700044816 /* OneHTPlus */,
+				1A18B7381F5ADD1700044816 /* OneHTPlusTests */,
+				1A18B7431F5ADD1700044816 /* OneHTPlusUITests */,
+				1A18B71F1F5ADD1700044816 /* Products */,
+				D1A70EF58C9D11E15F2B80DE /* Pods */,
+				9283CF07640FCD4AC5DF5DC3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A18B71F1F5ADD1700044816 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A18B71E1F5ADD1700044816 /* OneHTPlus.app */,
+				1A18B7351F5ADD1700044816 /* OneHTPlusTests.xctest */,
+				1A18B7401F5ADD1700044816 /* OneHTPlusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A18B7201F5ADD1700044816 /* OneHTPlus */ = {
+			isa = PBXGroup;
+			children = (
+				1A18B7211F5ADD1700044816 /* AppDelegate.swift */,
+				1A18B7251F5ADD1700044816 /* Main.storyboard */,
+				1A18B72B1F5ADD1700044816 /* Assets.xcassets */,
+				1A18B72D1F5ADD1700044816 /* LaunchScreen.storyboard */,
+				1A18B7301F5ADD1700044816 /* Info.plist */,
+				1A18B7281F5ADD1700044816 /* OneHTPlus.xcdatamodeld */,
+				1A18B7731F5B049B00044816 /* Common */,
+				1A18B75F1F5AF48400044816 /* Rest-Client-Sdk */,
+				1A18B7541F5AEDB500044816 /* Resource */,
+				1A18B77A1F5CF3D500044816 /* MainTabBarController.swift */,
+			);
+			path = OneHTPlus;
+			sourceTree = "<group>";
+		};
+		1A18B7381F5ADD1700044816 /* OneHTPlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A18B7391F5ADD1700044816 /* OneHTPlusTests.swift */,
+				1A18B73B1F5ADD1700044816 /* Info.plist */,
+			);
+			path = OneHTPlusTests;
+			sourceTree = "<group>";
+		};
+		1A18B7431F5ADD1700044816 /* OneHTPlusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A18B7441F5ADD1700044816 /* OneHTPlusUITests.swift */,
+				1A18B7461F5ADD1700044816 /* Info.plist */,
+			);
+			path = OneHTPlusUITests;
+			sourceTree = "<group>";
+		};
+		1A18B7541F5AEDB500044816 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1A18B7551F5AEDEB00044816 /* R.swift */,
+				1A18B75B1F5AEF3700044816 /* Localizable.strings */,
+				1A18B75D1F5AEF9100044816 /* Color.strings */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		1A18B75F1F5AF48400044816 /* Rest-Client-Sdk */ = {
+			isa = PBXGroup;
+			children = (
+				1A18B7771F5B05C500044816 /* Oauth */,
+				1A18B7601F5AF49500044816 /* Util */,
+			);
+			name = "Rest-Client-Sdk";
+			sourceTree = "<group>";
+		};
+		1A18B7601F5AF49500044816 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1A18B76F1F5AFF3300044816 /* StringContants.swift */,
+				1A18B7611F5AF4DF00044816 /* AlamofireRequestFactory.swift */,
+				1A18B7631F5AF51400044816 /* RestRequestException.swift */,
+				1A18B7651F5AF5D200044816 /* ErrorCode.swift */,
+				1A18B7671F5AFC7D00044816 /* ResponseObjectSerializable.swift */,
+				1A18B7691F5AFCA600044816 /* Request.swift */,
+				1A18B76B1F5AFCDF00044816 /* ResponseCollectionSerializable.swift */,
+				1A18B7711F5AFFCA00044816 /* ExceptionHandler.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		1A18B7731F5B049B00044816 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1A18B7741F5B04B200044816 /* Util */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		1A18B7741F5B04B200044816 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1A18B7751F5B04E400044816 /* AppUtils.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		1A18B7771F5B05C500044816 /* Oauth */ = {
+			isa = PBXGroup;
+			children = (
+				1A18B7781F5B05E800044816 /* AccessToken.swift */,
+			);
+			name = Oauth;
+			sourceTree = "<group>";
+		};
+		9283CF07640FCD4AC5DF5DC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F982C9D57D725EE5A99EA31 /* Pods_OneHTPlus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1A70EF58C9D11E15F2B80DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A18B7521F5AE35B00044816 /* Podfile */,
+				82137F5361D57579DF356D8A /* Pods-OneHTPlus.debug.xcconfig */,
+				875B3F0181463F664B5BAE87 /* Pods-OneHTPlus.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A18B71D1F5ADD1700044816 /* OneHTPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A18B7491F5ADD1700044816 /* Build configuration list for PBXNativeTarget "OneHTPlus" */;
+			buildPhases = (
+				5575D6FDD2195B05AC544577 /* [CP] Check Pods Manifest.lock */,
+				1A18B71A1F5ADD1700044816 /* Sources */,
+				1A18B71B1F5ADD1700044816 /* Frameworks */,
+				1A18B71C1F5ADD1700044816 /* Resources */,
+				D70EF02BA3454B0E17531CBD /* [CP] Embed Pods Frameworks */,
+				453602B9F82D33A5643B3E9C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneHTPlus;
+			productName = OneHTPlus;
+			productReference = 1A18B71E1F5ADD1700044816 /* OneHTPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A18B7341F5ADD1700044816 /* OneHTPlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A18B74C1F5ADD1700044816 /* Build configuration list for PBXNativeTarget "OneHTPlusTests" */;
+			buildPhases = (
+				1A18B7311F5ADD1700044816 /* Sources */,
+				1A18B7321F5ADD1700044816 /* Frameworks */,
+				1A18B7331F5ADD1700044816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A18B7371F5ADD1700044816 /* PBXTargetDependency */,
+			);
+			name = OneHTPlusTests;
+			productName = OneHTPlusTests;
+			productReference = 1A18B7351F5ADD1700044816 /* OneHTPlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A18B73F1F5ADD1700044816 /* OneHTPlusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A18B74F1F5ADD1700044816 /* Build configuration list for PBXNativeTarget "OneHTPlusUITests" */;
+			buildPhases = (
+				1A18B73C1F5ADD1700044816 /* Sources */,
+				1A18B73D1F5ADD1700044816 /* Frameworks */,
+				1A18B73E1F5ADD1700044816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A18B7421F5ADD1700044816 /* PBXTargetDependency */,
+			);
+			name = OneHTPlusUITests;
+			productName = OneHTPlusUITests;
+			productReference = 1A18B7401F5ADD1700044816 /* OneHTPlusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A18B7161F5ADD1700044816 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "LS Software";
+				TargetAttributes = {
+					1A18B71D1F5ADD1700044816 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B23MM92MTZ;
+						ProvisioningStyle = Automatic;
+					};
+					1A18B7341F5ADD1700044816 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B23MM92MTZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A18B71D1F5ADD1700044816;
+					};
+					1A18B73F1F5ADD1700044816 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B23MM92MTZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A18B71D1F5ADD1700044816;
+					};
+				};
+			};
+			buildConfigurationList = 1A18B7191F5ADD1700044816 /* Build configuration list for PBXProject "OneHTPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A18B7151F5ADD1700044816;
+			productRefGroup = 1A18B71F1F5ADD1700044816 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A18B71D1F5ADD1700044816 /* OneHTPlus */,
+				1A18B7341F5ADD1700044816 /* OneHTPlusTests */,
+				1A18B73F1F5ADD1700044816 /* OneHTPlusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A18B71C1F5ADD1700044816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A18B7591F5AEF3700044816 /* Localizable.strings in Resources */,
+				1A18B72F1F5ADD1700044816 /* LaunchScreen.storyboard in Resources */,
+				1A18B75E1F5AEF9100044816 /* Color.strings in Resources */,
+				1A18B72C1F5ADD1700044816 /* Assets.xcassets in Resources */,
+				1A18B7531F5AE35B00044816 /* Podfile in Resources */,
+				1A18B7271F5ADD1700044816 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A18B7331F5ADD1700044816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A18B73E1F5ADD1700044816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		453602B9F82D33A5643B3E9C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneHTPlus/Pods-OneHTPlus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5575D6FDD2195B05AC544577 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D70EF02BA3454B0E17531CBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneHTPlus/Pods-OneHTPlus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A18B71A1F5ADD1700044816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A18B7701F5AFF3300044816 /* StringContants.swift in Sources */,
+				1A18B7681F5AFC7D00044816 /* ResponseObjectSerializable.swift in Sources */,
+				1A18B7721F5AFFCA00044816 /* ExceptionHandler.swift in Sources */,
+				1A18B7761F5B04E400044816 /* AppUtils.swift in Sources */,
+				1A18B7561F5AEDEC00044816 /* R.swift in Sources */,
+				1A18B72A1F5ADD1700044816 /* OneHTPlus.xcdatamodeld in Sources */,
+				1A18B7621F5AF4DF00044816 /* AlamofireRequestFactory.swift in Sources */,
+				1A18B7791F5B05E800044816 /* AccessToken.swift in Sources */,
+				1A18B7661F5AF5D200044816 /* ErrorCode.swift in Sources */,
+				1A18B7641F5AF51400044816 /* RestRequestException.swift in Sources */,
+				1A18B77B1F5CF3D500044816 /* MainTabBarController.swift in Sources */,
+				1A18B76C1F5AFCDF00044816 /* ResponseCollectionSerializable.swift in Sources */,
+				1A18B76A1F5AFCA600044816 /* Request.swift in Sources */,
+				1A18B7221F5ADD1700044816 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A18B7311F5ADD1700044816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A18B73A1F5ADD1700044816 /* OneHTPlusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A18B73C1F5ADD1700044816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A18B7451F5ADD1700044816 /* OneHTPlusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A18B7371F5ADD1700044816 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A18B71D1F5ADD1700044816 /* OneHTPlus */;
+			targetProxy = 1A18B7361F5ADD1700044816 /* PBXContainerItemProxy */;
+		};
+		1A18B7421F5ADD1700044816 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A18B71D1F5ADD1700044816 /* OneHTPlus */;
+			targetProxy = 1A18B7411F5ADD1700044816 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A18B7251F5ADD1700044816 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A18B7261F5ADD1700044816 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A18B72D1F5ADD1700044816 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A18B72E1F5ADD1700044816 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1A18B75B1F5AEF3700044816 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A18B75A1F5AEF3700044816 /* Base */,
+				1A18B75C1F5AEF3900044816 /* en */,
+			);
+			name = Localizable.strings;
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A18B7471F5ADD1700044816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A18B7481F5ADD1700044816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A18B74A1F5ADD1700044816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82137F5361D57579DF356D8A /* Pods-OneHTPlus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B23MM92MTZ;
+				INFOPLIST_FILE = OneHTPlus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.civiw.OneHTPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1A18B74B1F5ADD1700044816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 875B3F0181463F664B5BAE87 /* Pods-OneHTPlus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B23MM92MTZ;
+				INFOPLIST_FILE = OneHTPlus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.civiw.OneHTPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1A18B74D1F5ADD1700044816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B23MM92MTZ;
+				INFOPLIST_FILE = OneHTPlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.civiw.OneHTPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneHTPlus.app/OneHTPlus";
+			};
+			name = Debug;
+		};
+		1A18B74E1F5ADD1700044816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B23MM92MTZ;
+				INFOPLIST_FILE = OneHTPlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.civiw.OneHTPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneHTPlus.app/OneHTPlus";
+			};
+			name = Release;
+		};
+		1A18B7501F5ADD1700044816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B23MM92MTZ;
+				INFOPLIST_FILE = OneHTPlusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.civiw.OneHTPlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OneHTPlus;
+			};
+			name = Debug;
+		};
+		1A18B7511F5ADD1700044816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B23MM92MTZ;
+				INFOPLIST_FILE = OneHTPlusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.civiw.OneHTPlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OneHTPlus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A18B7191F5ADD1700044816 /* Build configuration list for PBXProject "OneHTPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A18B7471F5ADD1700044816 /* Debug */,
+				1A18B7481F5ADD1700044816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A18B7491F5ADD1700044816 /* Build configuration list for PBXNativeTarget "OneHTPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A18B74A1F5ADD1700044816 /* Debug */,
+				1A18B74B1F5ADD1700044816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A18B74C1F5ADD1700044816 /* Build configuration list for PBXNativeTarget "OneHTPlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A18B74D1F5ADD1700044816 /* Debug */,
+				1A18B74E1F5ADD1700044816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A18B74F1F5ADD1700044816 /* Build configuration list for PBXNativeTarget "OneHTPlusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A18B7501F5ADD1700044816 /* Debug */,
+				1A18B7511F5ADD1700044816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1A18B7281F5ADD1700044816 /* OneHTPlus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1A18B7291F5ADD1700044816 /* OneHTPlus.xcdatamodel */,
+			);
+			currentVersion = 1A18B7291F5ADD1700044816 /* OneHTPlus.xcdatamodel */;
+			path = OneHTPlus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1A18B7161F5ADD1700044816 /* Project object */;
+}
