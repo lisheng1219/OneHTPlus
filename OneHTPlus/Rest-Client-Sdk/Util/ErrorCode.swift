@@ -15,14 +15,51 @@ class ErrorCode {
     
     /**
      * 公共基础异常
-     */
-//    let ERROR_00100 = RestRequestException.restServiceSystemErrorCode(errorCode: "00100", type: "公共基础异常", description: "公共基础异常", httpStatusCode: 500, data: nil)
+     */    
+
+    let ERROR_1001 = RestRequestException.restServiceSystemErrorCode(errorCode: "1001", type: "code is not empty", description: "校验码不能为空", httpStatusCode: 500, data: nil)
+    let ERROR_1002 = RestRequestException.restServiceSystemErrorCode(errorCode: "1002", type: "email is not empty", description: "email不能为空", httpStatusCode: 500, data: nil)
+    let ERROR_1003 = RestRequestException.restServiceSystemErrorCode(errorCode: "1003", type: "regist is fail", description: "注册失败", httpStatusCode: 500, data: nil)
+    let ERROR_1004 = RestRequestException.restServiceSystemErrorCode(errorCode: "1004", type: "token is illegal", description: "token 失效或者不正确", httpStatusCode: 500, data: nil)
+    let ERROR_1005 = RestRequestException.restServiceSystemErrorCode(errorCode: "1005", type: "Email does not exist or password is incorrect", description: "密码不正确或者用户不存在", httpStatusCode: 500, data: nil)
+    let ERROR_2001 = RestRequestException.restServiceSystemErrorCode(errorCode: "2001", type: "collections name can not be null", description: "收藏夹名字不能为空", httpStatusCode: 500, data: nil)
+    let ERROR_2002 = RestRequestException.restServiceSystemErrorCode(errorCode: "2002", type: "this collections does not exist", description: "没有这个收藏夹", httpStatusCode: 500, data: nil)
+    let ERROR_2003 = RestRequestException.restServiceSystemErrorCode(errorCode: "2003", type: "this article does not exist", description: "没有这个文章", httpStatusCode: 500, data: nil)
+    let ERROR_2004 = RestRequestException.restServiceSystemErrorCode(errorCode: "2004", type: "this article does exist", description: "这个文章已经存在", httpStatusCode: 500, data: nil)
+    let ERROR_2005 = RestRequestException.restServiceSystemErrorCode(errorCode: "2005", type: "this article in the blacklist", description: "url地址在黑名单中", httpStatusCode: 500, data: nil)
+    let ERROR_2006 = RestRequestException.restServiceSystemErrorCode(errorCode: "2006", type: "this article not in this collections", description: "没有在这个收藏夹中找到该文章", httpStatusCode: 500, data: nil)
+    let ERROR_2007 = RestRequestException.restServiceSystemErrorCode(errorCode: "2007", type: "tag does not exist", description: "没有在这个标签", httpStatusCode: 500, data: nil)
+    let ERROR_3001 = RestRequestException.restServiceSystemErrorCode(errorCode: "3001", type: "this user does not exist", description: "未找到该用户", httpStatusCode: 500, data: nil)
+    let ERROR_9001 = RestRequestException.restServiceSystemErrorCode(errorCode: "9001", type: "Illegal parameter calibration", description: "参数校验不合法", httpStatusCode: 500, data: nil)
+    let ERROR_9401 = RestRequestException.restServiceSystemErrorCode(errorCode: "9401", type: "not login", description: "没有登录", httpStatusCode: 500, data: nil)
+    let ERROR_9403 = RestRequestException.restServiceSystemErrorCode(errorCode: "9403", type: "not auth", description: "没有权限", httpStatusCode: 500, data: nil)
+    let ERROR_9404 = RestRequestException.restServiceSystemErrorCode(errorCode: "9404", type: "not fond", description: "未找到", httpStatusCode: 500, data: nil)
+    let ERROR_9999 = RestRequestException.restServiceSystemErrorCode(errorCode: "9999", type: "system error", description: "其他系统错误", httpStatusCode: 500, data: nil)
+
+    
     
     // 集合
     var restRequestExceptions = [RestRequestException]()
     
     init() {
-//        restRequestExceptions.append(ERROR_00100)
+        restRequestExceptions.append(ERROR_1001)
+        restRequestExceptions.append(ERROR_1002)
+        restRequestExceptions.append(ERROR_1003)
+        restRequestExceptions.append(ERROR_1004)
+        restRequestExceptions.append(ERROR_1005)
+        restRequestExceptions.append(ERROR_2001)
+        restRequestExceptions.append(ERROR_2002)
+        restRequestExceptions.append(ERROR_2003)
+        restRequestExceptions.append(ERROR_2004)
+        restRequestExceptions.append(ERROR_2005)
+        restRequestExceptions.append(ERROR_2006)
+        restRequestExceptions.append(ERROR_2007)
+        restRequestExceptions.append(ERROR_3001)
+        restRequestExceptions.append(ERROR_9001)
+        restRequestExceptions.append(ERROR_9401)
+        restRequestExceptions.append(ERROR_9403)
+        restRequestExceptions.append(ERROR_9404)
+        restRequestExceptions.append(ERROR_9999)
     }
     
     /**
