@@ -72,5 +72,10 @@ class StringContants {
     static let NO_SEARCH_RESULT_CODE = "88888"
     //网络连接失败
     static let MULTI_LOGIN_KICK_CODE = "11111"
+    
+    //MARK: - controller
+    
+    //MainTabBarController
+    static let MAIN_TABBAR_CONTROLLER  = "MainTabBarController"
 }
 
